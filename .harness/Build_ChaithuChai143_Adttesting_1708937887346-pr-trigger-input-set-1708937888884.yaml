@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ChaithuChai143_Adttesting_1708937887346-pr-trigger-input-set
+  identifier: Build_ChaithuChai143_Adttesting_1708937887346prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ChaithuChai143_Adttesting_1708937887346
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
