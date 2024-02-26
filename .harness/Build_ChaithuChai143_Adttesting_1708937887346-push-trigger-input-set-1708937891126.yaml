@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ChaithuChai143_Adttesting_1708937887346-push-trigger-input-set
+  identifier: Build_ChaithuChai143_Adttesting_1708937887346pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ChaithuChai143_Adttesting_1708937887346
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
